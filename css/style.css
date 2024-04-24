@@ -6,6 +6,10 @@ body{
     color: black;
 }
 
+#intestazione {
+    margin-bottom: 25px;
+}
+
 .dg-table-margin-bottom {
     margin-bottom: 165px;
 }

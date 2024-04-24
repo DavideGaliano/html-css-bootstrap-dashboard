@@ -66,9 +66,11 @@
             </div>
         </nav>
     </header>
-    <main >
+    <main class="container">
+        <div class="row justify-content-center">
+            <div class="col col-md-10">
         <div id="intestazione" class="container d-flex justify-content-between">
-            <h2>Catalogo Libri</h2>
+            <h2 class="fs-4 fw-normal">Catalogo Libri</h2>
             <button class="btn btn-primary">Aggiungi Libro</button>
         </div>
         <!--tabella-->
@@ -87,7 +89,11 @@
                     <th scope="row" class="fw-normal">I pilastri della terra</th>
                     <td class="d-none d-md-table-cell">-</td>
                     <td><span class="badge text-bg-success">Disponibile</span></td>
-                    <td><button class="btn btn-outline-secondary me-1 btn-sm"><i class="fa-solid fa-pen"></i></button><button class="btn btn-outline-secondary btn-sm"><i class="fa-solid fa-trash"></i></i></button></td>
+                    <td>
+                        <div class="d-flex flex-nowrap">
+                        <button class="btn btn-outline-secondary me-1 btn-sm"><i class="fa-solid fa-pen"></i></button><button class="btn btn-outline-secondary btn-sm"><i class="fa-solid fa-trash"></i></i></button>
+                        </div>
+                    </td>
                 </tr>
                 <tr>
                     <th scope="row" class="fw-normal">I promessi sposi</th>
@@ -177,7 +183,8 @@
         </table>
         </div>
         <!--/tabella-->
-
+        </div>
+        </div>
     </main>
     
 
