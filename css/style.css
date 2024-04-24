@@ -5,3 +5,7 @@ body{
 .form-control::placeholder {
     color: black;
 }
+
+.dg-table-margin-bottom {
+    margin-bottom: 165px;
+}
